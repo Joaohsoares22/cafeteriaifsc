@@ -1,41 +1,48 @@
 body{
-    background-color: rgb(19, 177, 43);
-    font-family: 'Courier New', Courier, monospace, sans-serif;
-    box-sizing: 0px 0px;
+    background-color: rgb(79, 79, 79);
+    font-family: 'Courier New', Courier, monospace, sans-serif; 
 }
 
 div{
-    border: 1px solid rgb(55, 54, 54);
     margin: 13px;
-    padding: 9px;
+    padding: 13px;
     text-align: center;
-    background: rgb(19, 177, 43);
-    border-radius: 
-    
 }
 
-.topo{
-    background-color: #00ff33;
-    border-radius: 30px;
-    box-shadow: 0px 10px 20px black;
-    border: none;
+.container{
+    max-width: 900px;
+    margin:auto;
+    padding: 0;
     
+}
+.topo{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 340px;  
+    padding: 4px;
 }
 
 .menu{
-    background-color: #00ff33;
-    border-radius: 30px;
+    background-color: #595c55;
+    border-radius: 320px;
     box-shadow: 0px 10px 20px black;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
 }
 
 .principal{
-    background-color: #00ff33;
+    background-color: #595c55;
     border-radius: 30px;
-    box-shadow: 0px 10px 20px black;
+    box-shadow: 0px 5px 10px rgb(255, 255, 255);
 }
 
+
 .rodape{
-    background-color: #00ff33;
+    background-color: #595c55;
     border-radius: 30px;
-    box-shadow: 0px 10px 20px black;
+    box-shadow: 0px 10px 20px rgb(255, 255, 255);
+    padding: 0;
+    text-align: center;
+    
 }
