@@ -1,16 +1,20 @@
+:root{
+    scroll-behavior: smooth;
+    
+}
 body{
-    background-color: rgb(79, 79, 79);
+    background-color: rgb(210, 197, 197);
     font-family: 'Courier New', Courier, monospace, sans-serif; 
 }
 
 div{
-    margin: 13px;
-    padding: 13px;
+    margin: 10px;
+    padding: 5px;
     text-align: center;
 }
 
 .container{
-    max-width: 900px;
+    max-width: 40000px;
     margin:auto;
     padding: 0;
     
@@ -18,31 +22,72 @@ div{
 .topo{
     background-color: #ffffff;
     text-align: center;
-    border-radius: 340px;  
-    padding: 4px;
+    border-radius: 5px;  
+    padding: 8px;
 }
 
 .menu{
-    background-color: #595c55;
-    border-radius: 320px;
-    box-shadow: 0px 10px 20px black;
+    background-color:#ffefb5;
+    border-radius: 5px;
     display: flex;
     justify-content: space-around;
-    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    
 }
 
 .principal{
-    background-color: #595c55;
-    border-radius: 30px;
-    box-shadow: 0px 5px 10px rgb(255, 255, 255);
+    background-color: #ffefb5;
+    border-radius: 5px;
+
+    
+    
+    
 }
 
 
 .rodape{
-    background-color: #595c55;
-    border-radius: 30px;
-    box-shadow: 0px 10px 20px rgb(255, 255, 255);
-    padding: 0;
+    background-color: #ffefb5;
+    border-radius: 5px;
+    text-align: left; 
     text-align: center;
+    padding: 0;
+    font-size: small;
     
+    
+}
+
+.cardapio{
+    background-color: #ffefb5;
+    text-decoration-line: underline;
+    border-radius: 5px;
+    padding: 2;
+    font-size: large;
+    color: rgb(90, 82, 82);
+   
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(149, 138, 138); 
+}
+
+td{
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: #eeda95;
+    
+}
+
+th{
+    background-color: #dfcd8c;
+    color: #000000;
+    padding: 20px;
+    
+    
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline;
 }
